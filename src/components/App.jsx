@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
+import '../styles/components/App.css'
 
 export const App = () => {
   return (
-    <div>Hello world! :)</div>
+    <h1>Hello world! :)</h1>
   )
 }
