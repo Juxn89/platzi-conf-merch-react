@@ -12,7 +12,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test", 
+      "pre-commit": "npm test",
       "pre-push": "npm test",
       "...": "..."
     }
@@ -30,7 +30,8 @@
   "homepage": "https://github.com/Juxn89/platzi-conf-merch-react#readme",
   "dependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.3.0"
   },
   "devDependencies": {
     "@babel/core": "7.18.9",
