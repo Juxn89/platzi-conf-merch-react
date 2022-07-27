@@ -50,6 +50,18 @@
 ### ESLint
 - Install ESLint globally: ```npm i -g eslint```.
 - Install ESLint in project: ```npm install eslint @babel/eslint-parser eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react -D```.
-- [ESLint | Visual Studio Code - Marketplace](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [ESLint Extension | Visual Studio Code - Marketplace](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 ### Prettier
 - Install Prettier in project: ```npm i prettier eslint-plugin-prettier eslint-config-prettier --save-dev```.
+### Husky
+- Install Husky: ```npm install husky --save-dev```.
+In **package.json**:
+```
+"husky": {
+    "hooks": {
+      "pre-commit": "npm test", 
+      "pre-push": "npm test",
+      "...": "..."
+    }
+  }
+```
