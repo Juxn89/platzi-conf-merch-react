@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { Layout } from '../components/Layout';
-import { Home } from '../pages/Home';
-
 import { Home, Checkout, Information, Payment, Success, NotFound } from '../pages/index';
 
 import AppContext from '../context/AppContext';
