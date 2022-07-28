@@ -1,4 +1,7 @@
 # Platzi Conf Merch | React
+## Documentations
+- [useRef](https://reactjs.org/docs/hooks-reference.html#useref).
+
 ## Dependencies
 ### React & React Router DOM
 - React and React-DOM: ```npm i react react-dom```.
