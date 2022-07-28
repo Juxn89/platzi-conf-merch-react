@@ -1,5 +1,5 @@
 import React, { useRef, useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import AppContext from '../context/AppContext';
 import '../styles/components/Information.css';
@@ -7,6 +7,7 @@ import '../styles/components/Information.css';
 export const Information = () => {
   const { State, addToBuyer } = useContext(AppContext);
   const { cart } = State;
+  const navigate = useNavigate();
 
   const form = useRef(null);
 
@@ -25,6 +26,7 @@ export const Information = () => {
     }
 
     addToBuyer(buyer);
+    navigate('/checkout/payment', { replace: true });
   }
 
   return (
@@ -61,7 +63,7 @@ export const Information = () => {
         <h3>Pedido: { cart.length } item(s) </h3>
         {
           cart.map(item => (
-            <div className="Information-item">
+            <div className="Information-item" key={ `information-item-${item.id}` }>
               <div className="Information-element">
                 <h4>{ item.title }</h4>
                 <span>${item.price}</span>
