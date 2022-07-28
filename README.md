@@ -17,6 +17,22 @@
 ### CSS loader, plugins & preprocessor
 - CSS loader & mini css plugin: ```npm i css-loader mini-css-extract-plugin --save-dev```.
 
+### Dotenv for webpack
+- doyenv: ```npm install --save-dev dotenv-webpack```.
+
+```
+// webpack.config.js
+const Dotenv = require('dotenv-webpack');
+ 
+module.exports = {
+  ...
+  plugins: [
+    new Dotenv()
+  ]
+
+};
+```
+
 #### Preprocessor
 ##### Sass
 - Sass: ```npm install --save-dev sass-loader node-sass```.

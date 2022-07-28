@@ -25,10 +25,18 @@ export const useInitialState = () => {
         });
     }
 
+    const addNewOrder = (payload) => {
+        setState({
+            ...State,
+            orders: [...State.orders, payload]
+        });
+    }
+
     return {
         addToCart,
         removeFromCart,
         addToBuyer,
+        addNewOrder,
         State
     }
 }

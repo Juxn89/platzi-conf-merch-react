@@ -11,6 +11,7 @@ Dentro de tu cuenta como desarrollador debes dirigirte al apartado “My Apps & 
 ![Sandbox access token](https://static.platzi.com/media/user_upload/paypal-1-8289e536-5853-4ef1-b54e-33ed5827edd3.jpg)
 
 Elegimos el tipo de cuenta que vamos a utilizar (Personal/Business).
+
 ![Generate Braintree SDK  Credential](https://static.platzi.com/media/user_upload/paypal-2-f18c3d2d-2685-4921-9357-7b050b06fbf0.jpg)
 
 Ahora que tenemos nuestro token generado debemos de revisar a detalle la expiración, así como el manejo de divisas que vamos a utilizar.
@@ -43,4 +44,6 @@ No olvides pasarte por la documentación para que puedas entender cada particula
 Cuéntame en la sección de comentarios si tienes ideas y qué mejoras podrían suponer en Platzi Conf Merch.
 
 #### Referencias
-- [Get started with PayPal Developer](https://developer.paypal.com/api/rest/)
+- [Get started with PayPal Developer](https://developer.paypal.com/api/rest/).
+- [npm i react-paypal-button | NPM](https://www.npmjs.com/package/react-paypal-button).
+- [¿Es buena idea usar Paypal como procesador de pagos en mi producto digital?](https://platzi.com/blog/es-buena-idea-usar-paypal-como-procesador-de-pagos-en-mi-producto-digital/).

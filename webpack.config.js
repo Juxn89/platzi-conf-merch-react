@@ -1,4 +1,5 @@
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 const htmlWebpackPlugin = require('html-webpack-plugin');
 const miniCssExtractPlugin = require('mini-css-extract-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -50,6 +51,7 @@ module.exports = {
     new miniCssExtractPlugin({
       filename: 'assets/[name].css',
     }),
+    new Dotenv()
   ],
   devServer: {
     static: {
