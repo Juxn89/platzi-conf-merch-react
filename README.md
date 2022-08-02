@@ -101,3 +101,12 @@ Read **GoogleMaps-API.md** file to reference.
 Read **Leaflet-API.md** file to reference.
 ### Others
 -[locationiq | alternative to Geocoding API by Google](https://locationiq.com/)
+
+## Others References
+### CI/CD
+-[Curso de Introducción al Despliegue de Aplicaciones](https://platzi.com/cursos/despliegue-apps/)
+-[Continuous Integration, Continuous Delivery y Continuous Deployments](https://platzi.com/blog/continuous-integration-continuous-delivery-y-continuous-deployments/)
+-[GitHub Action for Firebase](https://github.com/marketplace/actions/github-action-for-firebase)
+
+### GitHub
+-[Cambios en GitHub: de master a main](https://platzi.com/blog/cambios-en-github-master-main/)
