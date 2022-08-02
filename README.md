@@ -91,3 +91,13 @@ In **package.json**:
     }
   }
 ```
+
+## Third-party libraries
+### PayPay API
+Read **PayPal-API.md** file to reference.
+### Google Maps API
+Read **GoogleMaps-API.md** file to reference.
+### LeafletcAPI
+Read **Leaflet-API.md** file to reference.
+### Others
+-[locationiq | alternative to Geocoding API by Google](https://locationiq.com/)
