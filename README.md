@@ -70,6 +70,18 @@ module.exports = {
 	]
 }
 ```
+### Helmet | SEO
+#### Installation
+**NPM**: ```npm i react-helmet --save```
+
+-[Curso de Introducción a SEO: Posicionamiento en Buscadores](https://platzi.com/cursos/seo/)
+-[Curso de SEO Técnico](https://platzi.com/cursos/seo-tecnico/)
+-[Curso de Estrategia y Planeación de Contenidos para SEO](https://platzi.com/cursos/contenido-seo/)
+-[Curso de Buenas Prácticas de SEO](https://platzi.com/cursos/seo-recomendaciones/)
+-[El SEO es más que un buen título](https://platzi.com/blog/seo-mas-que-un-titulo/)
+-[¡NO, SEO no es para que aparezcas primero en Google!](https://platzi.com/blog/seo-para-posicionar-al-usuario/)
+-[El SEO es más que un buen título](https://platzi.com/blog/seo-mas-que-un-titulo/)
+
 ## Configurations
 ### ESLint
 - Install ESLint globally: ```npm i -g eslint```.
